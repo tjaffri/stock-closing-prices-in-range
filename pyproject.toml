@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "stock-closing-prices-in-range"
+version = "0.1.0"
+description = ""
+authors = ["Taqi Jaffri <tjaffri@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+yfinance = "*"
+pandas = "*"
+matplotlib = "*"
+ipykernel = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
